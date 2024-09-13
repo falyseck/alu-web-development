@@ -1,0 +1,421 @@
+body {
+    font-family: "Source Sans Pro";
+    font-style: normal;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    flex: auto;
+    background-image: url("./images/background.png");
+    padding: 2% 5% 2% 5%;
+    filter: grayscale(100%);
+    position: absolute;
+    left: -0.025%;
+    right: -0.025%;
+    top: 0%;
+    bottom: -26.48%;
+}
+
+header .logo {
+    flex: 2;
+    z-index: 1;
+}
+
+header .navigations {
+    flex: 4;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    margin-left: 20px;
+    text-transform: uppercase;
+    z-index: 1;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+header .navigations a {
+    margin-left: 1%;
+    margin-right: 1%;
+    text-decoration: none;
+    color: white;
+}
+
+.header-section {
+    left: 20%;
+    right: 20%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: -2.5rem;
+    background-blend-mode: color;
+    background: rgba(0, 0, 0, 1);
+    background: radial-gradient(85.9% 85.9% at 50% 14.1%,
+            rgba(54, 63, 78, 0) 0%,
+            #071629 100%);
+    color: white;
+}
+
+.school-text {
+    display: flex;
+    flex-direction: column;
+    padding-top: 5rem;
+}
+
+.get-schooled {
+    height: 151px;
+    font-weight: 700;
+    font-size: 120px;
+    line-height: 151px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.three-text {
+    height: 20px;
+    position: relative;
+    margin-top: -7%;
+    text-align: center;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 38%;
+    margin-right: 38%;
+}
+
+.register {
+    background: #c271ff;
+    border-radius: 25px;
+    border: none;
+    padding: 0.7rem;
+    color: white;
+    font-weight: 500;
+    box-shadow: 0px 1px 20px rgba(0, 0, 0, 0.5);
+    position: relative;
+    align-self: center;
+    margin: 2rem;
+    padding: 1rem;
+}
+
+.teachers-title {
+    color: #c271ff;
+    margin-top: 300px;
+    padding-right: 0px;
+}
+
+.smile-text {
+    width:10px;
+}
+.popular {
+    color: #c271ff;    
+}
+
+.free {
+    color: #c271ff;
+}
+.teachers {
+    padding: 2%;
+    display: flex;
+    flex-direction: column;
+}
+
+.teachers-title {
+    position: relative;
+    align-self: center;
+    padding: 2rem;
+    font-weight: 300;
+    line-height: 40px;
+    font-weight: bolder;
+}
+
+.first-title {
+    align-self: center;
+}
+.teachers-block {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.teacher-info {
+    width: 19%;
+    margin-bottom: 7rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.smilesimages {
+    border-radius: 50%;
+    max-width: 80%;
+}
+
+.teacher-info h3 {
+    font-weight: 900;
+    font-size: 18px;
+    margin-top: 0.2rem;
+    margin-bottom: 0.2rem;
+    text-align: center;
+}
+
+.teacher-info p {
+    font-style: italic;
+    text-align: center;
+    font-size: 16px;
+}
+
+main {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin: -8px;
+}
+
+.quote-section {
+    background-color: #c271ff;
+    padding: 6%;
+}
+
+.quote-block {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding-left: 9%;
+    padding-right: 9%;
+}
+
+.quote-block img {
+    width: 160px;
+    height: 160px;
+    margin-right: 3rem;
+}
+
+.quote-block blockquote {
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 34px;
+    margin-left: 0;
+}
+
+.quote-block .author-name {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 34px;
+    margin-bottom: 0;
+}
+
+.quote-block .presenting {
+    font-style: italic;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 34px;
+    margin-top: 0;
+}
+
+.quote-author {
+    width: 40px;
+    border-radius: 100px;
+}
+
+.text {
+    font-weight: 100;
+}
+
+.videos-section {
+    display: flex;
+    flex-direction: column;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.videos-section h1,
+.membership-section h1,
+.faq-section h1 {
+    text-align: center;
+}
+
+.videos-section h1 {
+    font-weight: 300;
+    font-size: 32px;
+    line-height: 40px;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+    text-align: center;
+}
+
+.faq-section h1 {
+    font-weight: 300;
+    font-size: 60px;
+    line-height: 75px;
+}
+
+.videos {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.video-info {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    max-width: 15%;
+}
+
+.video-info h2 {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 0.1rem;
+}
+
+.video-info .video-description {
+    font-weight: 400;
+    font-size: 14px;
+    width: 250px;
+    line-height: 24px;
+    color: rgba(7, 22, 41, 0.501584);
+}
+
+.video-info .play {
+    position: relative;
+    top: -5%;
+    left: 33%;
+}
+
+.video-uploader-name {
+    color: #c271ff; 
+}
+
+.stars {
+    width: 200px;
+}
+
+.video-info .video-uploader {
+    display: flex;
+    align-items: center;
+}
+
+.uploader-image {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    vertical-align: top;
+}
+
+.uploader h3 {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 27px;
+    color: #c271ff;
+    margin-left: 1rem;
+}
+
+.rating-time {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.time {
+    font-weight: 600;
+    font-size: 14px;
+    width: 150px;
+    line-height: 27px;
+    text-align: right;
+    color: #c271ff;
+}
+
+.membership-section {
+    color: white;
+    background: #071629;
+    padding: 2rem;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+    text-align: center;
+}
+
+.membership-section h1 {
+    font-weight: 300;
+    font-size: 32px;
+    line-height: 40px;
+    text-align: center;
+    padding-bottom: 2rem;
+}
+
+.membership-section button {
+    left: 42%;
+}
+
+.memberships {
+    display: flex;
+    justify-content: space-evenly;
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
+
+.membership-info {
+    display: flex;
+    flex-direction: column;
+    max-width: 12%;
+    align-items: center;
+    text-align: center;
+}
+
+.membership-info h2 {
+    margin-bottom: 0.1rem;
+}
+
+.faq-questions {
+    display: flex;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.faq {
+    display: flex;
+    flex: 50%;
+    flex-direction: column;
+    width: 50%;
+    padding: 5%;
+}
+
+footer {
+    background: black;
+    padding: 1rem;
+    margin: -8px;
+}
+
+.footer-section {
+    display: flex;
+    flex-direction: column;
+}
+
+.navigation-footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 4rem 8rem 4rem 8rem;
+}
+
+.navigation-footer div a {
+    margin-left: 0.4rem;
+    margin-right: 0.5rem;
+}
+
+.footer-section p {
+    color: white;
+    opacity: 0.35;
+    text-align: center;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+}
